@@ -14,7 +14,7 @@
 
 This is a landing page for our discord server. Connect with us on Discord or GitHub!
 
-Live site: [click here]()
+Live site: [https://josh76543210-fe-324623624624562245622.netlify.app/](https://josh76543210-fe-324623624624562245622.netlify.app/)
 
 ## Members
 
