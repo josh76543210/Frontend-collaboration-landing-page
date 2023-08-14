@@ -1,0 +1,87 @@
+/**********************/
+/*     over 480px     */
+/**********************/
+@media only screen and (min-width: 30em) {
+}
+
+/**********************/
+/*     over 640px     */
+/**********************/
+@media only screen and (min-width: 43em) {
+  /* Header */
+  .logo-title {
+    display: block;
+    font-size: calc((22 / 16) * 1rem);
+    font-weight: 600;
+  }
+}
+
+/**********************/
+/*     over 928px     */
+/**********************/
+@media only screen and (min-width: 58em) {
+}
+
+/***********************/
+/*     over 1120px     */
+/***********************/
+@media only screen and (min-width: 70em) {
+  /* General Styling */
+  h1 {
+    font-size: calc((72 / 16) * 1rem);
+    margin: 0;
+  }
+
+  /* Header */
+  header {
+    height: calc((100 / 16) * 1rem);
+    width: 100%;
+    padding: calc((10 / 16) * 1rem) calc((20 / 16) * 1rem);
+  }
+
+  .logo-title {
+    font-size: calc((28 / 16) * 1rem);
+  }
+
+  header nav ul {
+    font-size: calc((22 / 16) * 1rem);
+  }
+
+  /* Main */
+  main {
+    max-width: calc((1200 / 16) * 1rem);
+    margin: calc((120 / 16) * 1rem) auto 0;
+  }
+
+  /* hero-section */
+  .hero {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  /* members-section */
+  .members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: calc((40 / 16) * 1rem);
+  }
+
+  .members h2 {
+    grid-column: 1 / -1;
+  }
+
+  /* projects-section */
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: calc((40 / 16) * 1rem);
+  }
+
+  .projects h2 {
+    grid-column: 1 / -1;
+  }
+}

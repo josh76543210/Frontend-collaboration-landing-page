@@ -1,0 +1,168 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+/* Colors */
+:root {
+  /* PRIMARY */
+  /* SECONDARY */
+  --light-red: hsl(354, 100%, 66%);
+  --light-green: hsl(96, 51%, 45%);
+  /* NEUTRAL */
+  --grey: hsl(0, 0%, 75%);
+  --medium: hsl(209, 33%, 22%);
+  --dark: hsl(209, 33%, 12%);
+}
+
+/* General Styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-size: calc((16 / 16) * 1rem);
+  font-weight: 400;
+  color: var(--grey);
+  background-color: var(--dark);
+  min-width: calc((300 / 16) * 1rem);
+  position: relative;
+}
+
+article {
+  background-color: var(--medium);
+  border-radius: calc((5 / 16) * 1rem);
+  box-shadow: calc((5 / 16) * 1rem) calc((5 / 16) * 1rem) calc((20 / 16) * 1rem)
+    #00000022;
+  padding: calc((20 / 16) * 1rem) calc((20 / 16) * 1rem);
+  margin-bottom: calc((40 / 16) * 1rem);
+
+  display: flex;
+  flex-direction: column;
+  gap: calc((20 / 16) * 1rem);
+}
+
+section {
+  position: relative;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+#about,
+#members,
+#projects {
+  position: absolute;
+  top: calc((-100 / 16) * 1rem);
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: calc((30 / 16) * 1rem);
+}
+
+h1 {
+  font-size: calc((42 / 16) * 1rem);
+}
+
+h2 {
+  font-size: calc((32 / 16) * 1rem);
+}
+
+h3 {
+  font-size: calc((22 / 16) * 1rem);
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a:link,
+a:visited {
+  color: inherit;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Header */
+header {
+  height: calc((70 / 16) * 1rem);
+  width: 100%;
+  min-width: calc((310 / 16) * 1rem);
+  padding: calc((10 / 16) * 1rem);
+  background-color: var(--dark);
+  z-index: 999;
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: calc((20 / 16) * 1rem);
+}
+
+.logo-img {
+  height: calc((50 / 16) * 1rem);
+  border-radius: 50%;
+}
+
+.logo-title {
+  display: none;
+}
+
+header nav ul {
+  list-style-type: none;
+
+  display: flex;
+  gap: calc((20 / 16) * 1rem);
+}
+
+/* Main */
+main {
+  padding: 0 calc((10 / 16) * 1rem) calc((80 / 16) * 1rem);
+  max-width: calc((700 / 16) * 1rem);
+  margin: calc((100 / 16) * 1rem) auto 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: calc((80 / 16) * 1rem);
+}
+
+/* hero-section */
+.hero-img {
+  border-radius: calc((5 / 16) * 1rem);
+  box-shadow: calc((5 / 16) * 1rem) calc((5 / 16) * 1rem) calc((20 / 16) * 1rem)
+    #00000022;
+  margin: auto;
+}
+
+/* about-section */
+
+/* members-section */
+
+/* projects-section */
+
+/* Footer */
+footer {
+  height: calc((50 / 16) * 1rem);
+  text-align: center;
+  font-size: calc((13 / 16) * 1rem);
+}
