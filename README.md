@@ -19,6 +19,9 @@ Live site: [https://f-r-o-n-t-e-n-d-c-o-l-l-a-b.netlify.app/](https://f-r-o-n-t-
 ## Members
 
 - [@josh76543210](https://github.com/josh76543210)
+- [@Leroy-sama](https://github.com/Leroy-sama)
+- [@SoloLere](https://github.com/SoloLere)
+- [@ShalomiAhavah](https://github.com/ShalomiAhavah)
 
 ## Projects
 
