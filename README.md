@@ -19,6 +19,9 @@ Live site: [https://josh76543210-fe-324623624624562245622.netlify.app/](https://
 ## Members
 
 - [@josh76543210](https://github.com/josh76543210)
+- [@Leroy-sama](https://github.com/Leroy-sama)
+- [@SoloLere](https://github.com/SoloLere)
+- [@ShalomiAhavah](https://github.com/ShalomiAhavah)
 
 ## Projects
 
