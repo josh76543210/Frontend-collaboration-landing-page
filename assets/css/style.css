@@ -32,6 +32,7 @@ body {
 }
 
 article {
+  overflow: hidden;
   background-color: var(--medium);
   border-radius: calc((5 / 16) * 1rem);
   box-shadow: calc((5 / 16) * 1rem) calc((5 / 16) * 1rem) calc((20 / 16) * 1rem)
