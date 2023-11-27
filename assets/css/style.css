@@ -23,7 +23,6 @@
 
 body {
   width: 100vw;
-  font-family: "Inter", sans-serif;
   line-height: 1;
   font-size: calc((16 / 16) * 1rem);
   font-weight: 400;
