@@ -1,6 +1,5 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
-
 /* Colors */
 :root {
   /* PRIMARY */
@@ -21,8 +20,8 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
   line-height: 1;
+  font-family: "Inter", sans-serif;
   font-size: calc((16 / 16) * 1rem);
   font-weight: 400;
   color: var(--grey);
@@ -60,6 +59,7 @@ section:last-child {
   top: calc((-100 / 16) * 1rem);
 }
 
+
 h1,
 h2 {
   font-weight: 700;
@@ -84,6 +84,10 @@ p {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:link,
 a:visited {
   color: inherit;
@@ -91,7 +95,7 @@ a:visited {
 
 a:hover,
 a:active {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .hidden {
@@ -148,6 +152,8 @@ main {
 }
 
 /* hero-section */
+
+  
 .hero-img {
   border-radius: calc((5 / 16) * 1rem);
   box-shadow: calc((5 / 16) * 1rem) calc((5 / 16) * 1rem) calc((20 / 16) * 1rem)
@@ -159,7 +165,21 @@ main {
 
 /* members-section */
 
+.member p {
+  font-weight: 500;
+}
+.member a {
+  font-weight: 300;
+}
+
 /* projects-section */
+
+.projects p{
+  font-weight: 500;
+}
+.projects a {
+  font-weight: 300; 
+}
 
 /* Footer */
 footer {
