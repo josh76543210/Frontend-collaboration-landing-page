@@ -1,6 +1,6 @@
 # Frontend Collaboration Landing Page
 
-![](./assets/images/screenshot.png)
+![](./screenshot.png)
 
 ## Menu
 
