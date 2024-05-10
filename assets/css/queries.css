@@ -144,10 +144,14 @@
     padding: calc((10 / 16) * 1rem) calc((20 / 16) * 1rem);
   }
 
-  header nav ul {
+  .logo-title {
     font-size: calc((32 / 16) * 1rem);
+  }
 
-    gap: calc((50 / 16) * 1rem);
+  header nav ul {
+    font-size: calc((26 / 16) * 1rem);
+
+    gap: calc((40 / 16) * 1rem);
   }
 
   /* Main */
