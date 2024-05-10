@@ -12,7 +12,9 @@
 
 ## About
 
-This is a landing page for our discord server. Connect with us on Discord or GitHub!
+We're a team of designers and developers passionate about creating amazing online experiences. At the moment our focus is on building projects from the [Frontend Mentor](https://www.frontendmentor.io/) platform but we are open to working on all types of front-end web development projects.
+
+We work together to create stunning projects that showcase not only our individual coding skills but also our ability to collaborate and help each other grow and learn. [Join us](https://discord.gg/NYHfjtZE) as we push boundaries to ehance our skills and development, one project at a time. [New contributions](https://github.com/josh76543210/Frontend-collaboration-landing-page)</a> are always welcome!
 
 Live site: [https://f-r-o-n-t-e-n-d-c-o-l-l-a-b.netlify.app/](https://f-r-o-n-t-e-n-d-c-o-l-l-a-b.netlify.app/)
 
@@ -25,7 +27,8 @@ Live site: [https://f-r-o-n-t-e-n-d-c-o-l-l-a-b.netlify.app/](https://f-r-o-n-t-
 
 ## Projects
 
-Coming Soon
+- [Frontend Mentor - Huddle landing page solution](https://wonderful-cranachan-afb020.netlify.app/)
+- [Frontend Mentor - Loopstudios landing page solution](https://frontend-mentor-loopstudios-page.netlify.app/)
 
 ## Contribution:
 
@@ -40,4 +43,4 @@ Coming Soon
 
 ## Credits
 
-Site created by [@josh76543210](https://github.com/josh76543210) - August 2023
+Landing page created by [@josh76543210](https://github.com/josh76543210) - August 2023

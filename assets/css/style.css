@@ -27,7 +27,7 @@ body {
   font-weight: 400;
   color: var(--grey);
   background-color: var(--dark);
-  min-width: calc((300 / 16) * 1rem);
+  min-width: calc((250 / 16) * 1rem);
   position: relative;
 }
 
@@ -67,20 +67,21 @@ h2 {
 }
 
 h1 {
-  font-size: calc((42 / 16) * 1rem);
+  font-size: calc((28 / 16) * 1rem);
 }
 
 h2 {
-  font-size: calc((32 / 16) * 1rem);
+  font-size: calc((22 / 16) * 1rem);
 }
 
 h3 {
-  font-size: calc((22 / 16) * 1rem);
+  font-size: calc((16 / 16) * 1rem);
   font-weight: 600;
 }
 
 p {
   line-height: 1.5;
+  margin-bottom: calc((10 / 16) * 1rem);
 }
 
 a:link,
@@ -101,7 +102,6 @@ a:active {
 header {
   height: calc((70 / 16) * 1rem);
   width: 100%;
-  min-width: calc((310 / 16) * 1rem);
   padding: calc((10 / 16) * 1rem);
   background-color: var(--dark);
   z-index: 999;
@@ -114,6 +114,8 @@ header {
 }
 
 .logo-link {
+  z-index: 102;
+
   display: flex;
   align-items: center;
   gap: calc((20 / 16) * 1rem);
@@ -128,6 +130,21 @@ header {
   display: none;
 }
 
+.header-nav {
+  height: 100%;
+  padding: 0 calc((20 / 16) * 1rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav-toggler {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
 header nav ul {
   list-style-type: none;
 
@@ -137,13 +154,13 @@ header nav ul {
 
 /* Main */
 main {
-  padding: 0 calc((10 / 16) * 1rem) calc((80 / 16) * 1rem);
+  padding: calc((10 / 16) * 1rem);
   max-width: calc((700 / 16) * 1rem);
   margin: calc((100 / 16) * 1rem) auto 0;
 
   display: flex;
   flex-direction: column;
-  gap: calc((80 / 16) * 1rem);
+  gap: calc((60 / 16) * 1rem);
 }
 
 /* hero-section */
@@ -151,6 +168,9 @@ main {
   border-radius: calc((5 / 16) * 1rem);
   box-shadow: calc((5 / 16) * 1rem) calc((5 / 16) * 1rem) calc((20 / 16) * 1rem) #00000022;
   margin: auto;
+  display: block;
+  width: 100%;
+  max-width: calc((300 / 16) * 1rem);
 }
 
 /* about-section */
@@ -164,4 +184,35 @@ footer {
   height: calc((50 / 16) * 1rem);
   text-align: center;
   font-size: calc((13 / 16) * 1rem);
+}
+
+/* hide list */
+[aria-expanded='false'] ~ ul {
+  display: none;
+}
+
+/* open navigation */
+[aria-expanded='true'] {
+  z-index: 101;
+}
+
+[aria-expanded='true'] .header-nav-icon {
+  content: url(../images/icon-close.svg);
+}
+
+[aria-expanded='true'] ~ ul {
+  z-index: 100;
+  display: block;
+  background: var(--dark);
+  padding: calc((80 / 16) * 1rem) calc((20 / 16) * 1rem);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
