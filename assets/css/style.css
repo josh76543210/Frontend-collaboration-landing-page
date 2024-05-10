@@ -114,6 +114,8 @@ header {
 }
 
 .logo-link {
+  z-index: 102;
+
   display: flex;
   align-items: center;
   gap: calc((20 / 16) * 1rem);
@@ -126,6 +128,21 @@ header {
 
 .logo-title {
   display: none;
+}
+
+.header-nav {
+  height: 100%;
+  padding: 0 calc((20 / 16) * 1rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav-toggler {
+  cursor: pointer;
+  border: none;
+  background: transparent;
 }
 
 header nav ul {
@@ -164,4 +181,35 @@ footer {
   height: calc((50 / 16) * 1rem);
   text-align: center;
   font-size: calc((13 / 16) * 1rem);
+}
+
+/* hide list */
+[aria-expanded='false'] ~ ul {
+  display: none;
+}
+
+/* open navigation */
+[aria-expanded='true'] {
+  z-index: 101;
+}
+
+[aria-expanded='true'] .header-nav-icon {
+  content: url(../images/icon-close.svg);
+}
+
+[aria-expanded='true'] ~ ul {
+  z-index: 100;
+  display: block;
+  background: var(--dark);
+  padding: calc((80 / 16) * 1rem) calc((20 / 16) * 1rem);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

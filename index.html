@@ -13,17 +13,25 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/queries.css" />
+
+    <!-- JS -->
+    <script defer src="./assets/js/script.js"></script>
   </head>
   <body>
     <!-- Header  -->
     <header>
       <a class="logo-link" href="#"> <img class="logo-img" src="assets/images/logo.jpg" alt="Half-closed Laptop" /><span class="logo-title">Frontend Collaboration</span></a>
       <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#members">Members</a></li>
-          <li><a href="#projects">Projects</a></li>
-        </ul>
+        <div class="header-nav">
+          <button class="header-nav-toggler" aria-expanded="false" aria-controls="header-nav">
+            <img src="./assets/images/icon-hamburger.svg" alt="" class="header-nav-icon" />
+          </button>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#members">Members</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
 
