@@ -2,6 +2,15 @@
 /*     over 480px     */
 /**********************/
 @media only screen and (min-width: 30em) {
+  /* hide hamburger menu */
+  [aria-controls='header-nav'] {
+    display: none;
+  }
+
+  /* show list */
+  [aria-expanded='false'] ~ ul {
+    display: flex;
+  }
 }
 
 /**********************/
